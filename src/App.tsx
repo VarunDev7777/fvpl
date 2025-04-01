@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo, Dispatch, SetStateAction, CSSProperties } from 'react';
-import { Search, ChevronLeft, ChevronRight, Calendar, Tv, Film, Plus, ChevronDown, Play, Loader2, AlertCircle } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Calendar, Tv, Plus, ChevronDown, Loader2, AlertCircle } from 'lucide-react';
 
 // Constants
 const API_ENDPOINT: string = 'http://tgv2env-env-test.eba-9wibqvvm.eu-west-2.elasticbeanstalk.com/allEpg';
